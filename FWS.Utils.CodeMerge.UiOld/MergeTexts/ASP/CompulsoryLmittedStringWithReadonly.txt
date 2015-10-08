@@ -1,0 +1,14 @@
+    <tr>
+        <td>
+            <em>
+                <asp:Label runat="server" ID="lbl<Merge>Label" Text="<Merge>" />
+	    </em>
+        </td>
+        <td>
+            <asp:Label runat="server" ID="lbl<Merge>" Text="" />
+            <asp:TextBox runat="server" ID="txt<Merge>" Text="" CssClass="form" Visible="false" />
+            <asp:RequiredFieldValidator ID="rfv<Merge>" ForeColor="" runat="server" ControlToValidate="txt<Merge>"
+                CssClass="colourtext" SetFocusOnError="true" EnableClientScript="true" ErrorMessage="Please enter a <Merge>"
+                meta:resourcekey="rfv<Merge>">*</asp:RequiredFieldValidator>
+        </td>
+    </tr>

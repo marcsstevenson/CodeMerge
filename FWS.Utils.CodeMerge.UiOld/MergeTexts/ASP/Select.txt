@@ -1,0 +1,12 @@
+
+    <tr>
+        <td>
+            <em>
+                <asp:Label runat="server" ID="lbl<Merge>Label" Text="<Merge>" />
+            </em>
+        </td>
+        <td>
+            <asp:DropDownList runat="server" ID="ddl<Merge>">
+            </asp:DropDownList>
+        </td>
+    </tr>

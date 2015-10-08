@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWS.Utils.CodeMerge.Ui", "FWS.Utils.CodeMerge.Ui\FWS.Utils.CodeMerge.Ui.csproj", "{A529959F-4E1C-499B-BAE7-2848DD2DA838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWS.Utils.CodeMerge.Logic", "FWS.Utils.CodeMerge.Logic\FWS.Utils.CodeMerge.Logic.csproj", "{F4DFD36E-7544-4689-A298-726AA515D0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWS.Utils.CodeMerge.Testing", "FWS.Utils.CodeMerge.Testing\FWS.Utils.CodeMerge.Testing.csproj", "{024DA860-2EBC-4E1A-AD04-118B3A3C62D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWS.Generic.Helpers", "..\FWS.Generic.Helpers\FWS.Generic.Helpers.csproj", "{ED078BC9-6A3C-41AB-AC2A-FD1D863D4B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWS.Generic.Helpers.Testing", "..\FWS.Generic.Helpers.Testing\FWS.Generic.Helpers.Testing.csproj", "{5695B2C4-FC9E-4E0E-9A6D-480460D2D0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMerge", "FWS.Utils.CodeMerge.UiOld\CodeMerge.csproj", "{69760B4F-5F11-4A07-BFC0-D399B50CF063}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FWS.Utils.CodeMerge.WebUi", "http://localhost:9458", "{78BB8320-E739-48A5-BC8C-D8E4CFEDCD7C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{ed078bc9-6a3c-41ab-ac2a-fd1d863d4b04}|FWS.Generic.Helpers.dll;{f4dfd36e-7544-4689-a298-726aa515d0a0}|FWS.Utils.CodeMerge.Logic.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9458"
+		Debug.AspNetCompiler.PhysicalPath = "FWS.Utils.CodeMerge.WebUi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9458\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9458"
+		Release.AspNetCompiler.PhysicalPath = "FWS.Utils.CodeMerge.WebUi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9458\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "FWS.Utils.CodeMerge.WebUi\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A529959F-4E1C-499B-BAE7-2848DD2DA838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A529959F-4E1C-499B-BAE7-2848DD2DA838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A529959F-4E1C-499B-BAE7-2848DD2DA838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A529959F-4E1C-499B-BAE7-2848DD2DA838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DFD36E-7544-4689-A298-726AA515D0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DFD36E-7544-4689-A298-726AA515D0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DFD36E-7544-4689-A298-726AA515D0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DFD36E-7544-4689-A298-726AA515D0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024DA860-2EBC-4E1A-AD04-118B3A3C62D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024DA860-2EBC-4E1A-AD04-118B3A3C62D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024DA860-2EBC-4E1A-AD04-118B3A3C62D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024DA860-2EBC-4E1A-AD04-118B3A3C62D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED078BC9-6A3C-41AB-AC2A-FD1D863D4B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED078BC9-6A3C-41AB-AC2A-FD1D863D4B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED078BC9-6A3C-41AB-AC2A-FD1D863D4B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED078BC9-6A3C-41AB-AC2A-FD1D863D4B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5695B2C4-FC9E-4E0E-9A6D-480460D2D0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5695B2C4-FC9E-4E0E-9A6D-480460D2D0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5695B2C4-FC9E-4E0E-9A6D-480460D2D0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5695B2C4-FC9E-4E0E-9A6D-480460D2D0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69760B4F-5F11-4A07-BFC0-D399B50CF063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69760B4F-5F11-4A07-BFC0-D399B50CF063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69760B4F-5F11-4A07-BFC0-D399B50CF063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69760B4F-5F11-4A07-BFC0-D399B50CF063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BB8320-E739-48A5-BC8C-D8E4CFEDCD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BB8320-E739-48A5-BC8C-D8E4CFEDCD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BB8320-E739-48A5-BC8C-D8E4CFEDCD7C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BB8320-E739-48A5-BC8C-D8E4CFEDCD7C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
